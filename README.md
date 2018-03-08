@@ -12,8 +12,11 @@ TECHNOLOGIES USED
 App Usage
 -----------------------------------------------------------------------------------------------------
 .Clone or download the repo
+
 .npm install - to install the dependencies needed for the webapp
+
 .npm start - to run the app
+
 .Server is running on port 3030
 
 Routes
