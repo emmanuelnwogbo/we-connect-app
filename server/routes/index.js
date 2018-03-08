@@ -9,7 +9,7 @@ import users from '../db/users.json';
 
 let { User, Business, Review } = models;
 
-router.post('/auth/signup', (req, res, next) => {
+router.post('/api/v1/auth/signup', (req, res, next) => {
   let body = _.pick(req.body, [
     'firstname',
     'lastname',
@@ -32,19 +32,19 @@ router.post('/auth/signup', (req, res, next) => {
   res.json(newUser).status(201);
 });
 
-router.post('/auth/login', (req, res, next) => {
+router.post('/api/v1/auth/login', (req, res, next) => {
   let body = _.pick(req.body, ['email', 'password']);
 
   res.json(body).status(200);
 });
 
-router.post('/business', (req, res, next) => {
+router.post('/api/v1/business', (req, res, next) => {
   let body = _.pick(req.body, [name, address, category]);
 
   res.json(body).status(201);
 });
 
-router.patch('/business/:id', (req, res, next) => {
+router.patch('/api/v1/business/:id', (req, res, next) => {
   let id = req.params.id;
   let body = _.pick(req.body, ['name', 'address', 'category']);
 
@@ -55,7 +55,7 @@ router.patch('/business/:id', (req, res, next) => {
   });
 });
 
-router.delete('/business/:id', (req, res, next) => {
+router.delete('/api/v1/business/:id', (req, res, next) => {
   let id = req.params.id;
 
   businesses.map(business => {
@@ -65,7 +65,7 @@ router.delete('/business/:id', (req, res, next) => {
   });
 });
 
-router.get('/business/:id', (req, res, next) => {
+router.get('/api/v1/business/:id', (req, res, next) => {
   let id = req.params.id;
 
   businesses.map(business => {
@@ -75,7 +75,7 @@ router.get('/business/:id', (req, res, next) => {
   });
 });
 
-router.get('/businesses', (req, res, next) => {
+router.get('/api/v1/businesses', (req, res, next) => {
   let id = req.params.id;
   let locationQuery = req.query.location;
   let categoryQuery = req.query.category;
@@ -97,12 +97,12 @@ router.get('/businesses', (req, res, next) => {
   res.json(businesses).status(200);
 });
 
-router.post('/business/:id/reviews', (req, res, next) => {
+router.post('/api/v1/business/:id/reviews', (req, res, next) => {
   let id = req.params.id;
   let body = _.pick(req.body, ['review']);
 });
 
-router.get('/businesses/:id/reviews', (req, res, next) => {
+router.get('/api/v1/businesses/:id/reviews', (req, res, next) => {
   let id = req.params.id;
 
   businesses.map(business => {
