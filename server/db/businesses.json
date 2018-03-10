@@ -1,154 +1,56 @@
-[
-  {
+{
+  "business1": {
     "id": "1",
-    "name": "utility belt creators",
-    "location": "ikeja city mall",
-    "category": "self defence",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "ikeja",
+    "category": "art"
   },
-
-  {
+  "business2": {
     "id": "2",
-    "name": "cement distributors",
-    "location": "ikeja city mall",
-    "category": "building and construction",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "temale",
+    "category": "technology"
   },
-
-  {
+  "business3": {
     "id": "3",
-    "name": "dance hall",
-    "location": "ikeja city mall",
-    "category": "art",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "portharcourt",
+    "category": "technology"
   },
-
-  {
+  "business4": {
     "id": "4",
-    "name": "pool creators",
-    "location": "ikeja city mall",
-    "category": "leizure",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "accra",
+    "category": "toys"
   },
-
-  {
+  "business5": {
     "id": "5",
-    "name": "phone repairs",
-    "location": "ikeja city mall",
-    "category": "repairs",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "lekki",
+    "category": "art"
   },
-
-  {
+  "business6": {
     "id": "6",
-    "name": "gadgets",
-    "location": "ikeja city mall",
-    "category": "gadgets",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "accra mall",
+    "category": "cooking"
   },
-
-  {
+  "business7": {
     "id": "7",
-    "name": "photgrapher",
-    "location": "ikeja city mall",
-    "category": "art",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "ikeja mall",
+    "category": "fashion"
   },
-
-  {
+  "business8": {
     "id": "8",
-    "name": "singers and mvps",
-    "location": "portharcourt mall",
-    "category": "occasions",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+    "name": "business 1",
+    "address": "north accra",
+    "category": "sports"
   },
-
-  {
-    "id": "8",
-    "name": "singers and mvps",
-    "location": "portharcourt",
-    "category": "occasions",
-    "reviews": [
-      {
-        "name": "batman",
-        "review": "I'm batman"
-      },
-      {
-        "name": "kremlin",
-        "review": "this business is really good. I love their job"
-      }
-    ]
+  "business9": {
+    "id": "9",
+    "name": "business 1",
+    "address": "ikeja",
+    "category": "repairs"
   }
-]
+}

@@ -13,8 +13,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(cors());
 
+app.get('*', (req, res) => {
+  res.status(404).send({
+    message: "this is not the page you're looking for",
+  });
+});
+
 app.use('/documentation', indexRouter);
-app.use('/api/v1/business/', businessRouter);
+app.use('/api/v1/businesses/', businessRouter);
 app.use('/api/v1/auth/', userRouter);
 
 const port = 3030;

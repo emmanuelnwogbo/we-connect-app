@@ -1,27 +1,21 @@
 import express from 'express';
+import fs from 'fs';
 import _ from 'lodash';
-import writeJsonFile from 'write-json-file';
+
+let data = fs.readFileSync('db/businesses.json');
+let businesses = JSON.parse(data);
 
 const router = express.Router();
 
-import models from '../models';
-let { User, Business, Review } = models;
-
-import businesses from '../db/businesses.json';
-import users from '../db/users.json';
-
 router.get('/', (req, res, next) => {
-  res.json('hello there business');
+  res.json(businesses);
 });
 
-/*router.post('/api/v1/business', (req, res, next) => {
-  let body = _.pick(req.body, [name, address, category]);
-
-  res.json(body).status(201);
+router.post('/business/new', (req, res, next) => {
+  let body = _.pick(req.body, ['name', 'location', 'category']);
 });
 
-
-router.patch('/api/v1/business/:id', (req, res, next) => {
+/*router.patch('/api/v1/business/:id', (req, res, next) => {
   let id = req.params.id;
   let body = _.pick(req.body, ['name', 'address', 'category']);
 
