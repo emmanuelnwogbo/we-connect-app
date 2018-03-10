@@ -1,5 +1,5 @@
 export default class Business {
-  constructor(id, name, address, category, reviews) {
+  constructor(id, name, location, category, reviews) {
     this.name = name;
     this.address = address;
     this.category = category;

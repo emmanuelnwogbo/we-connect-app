@@ -3,13 +3,19 @@
     "firstname": "emmanuel",
     "lastname": "nwogbo",
     "email": "emmanwogbo@gmail.com",
-    "password": "eemmaann"
+    "password": "eemmaann",
+    "business": {
+      "id": 1
+    }
   },
 
   {
     "firstname": "ope",
     "lastname": "odedeyi",
     "email": "ope@gmail.com",
-    "password": "ope"
+    "password": "ope",
+    "business": {
+      "id": 2
+    }
   }
 ]
