@@ -5,6 +5,7 @@ import cors from 'cors';
 import index from '../routes/index';
 import user from '../routes/user';
 import business from '../routes/business';
+import review from '../routes/review';
 
 const app = express();
 
@@ -19,10 +20,10 @@ app.use(cors());
   });
 });*/
 
-
 app.use('/documentation', index);
 app.use('/api/v1/businesses', business);
 app.use('/api/v1/auth/', user);
+app.use('/api/v1/review', review);
 
 const port = 3030;
 

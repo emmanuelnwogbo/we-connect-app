@@ -1,0 +1,26 @@
+{
+  "business1": {
+    "id": "1",
+    "user": "test User",
+    "body":
+      "Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula eleme"
+  },
+  "business2": {
+    "id": "2",
+    "user": "test User",
+    "body":
+      "Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula eleme"
+  },
+  "business3": {
+    "id": "3",
+    "user": "test User",
+    "body":
+      "Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula eleme"
+  },
+  "business4": {
+    "id": "1",
+    "user": "test User",
+    "body":
+      "Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula eleme"
+  }
+}

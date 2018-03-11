@@ -26,11 +26,6 @@ router.get('/', getBusinessesOfCategory);
 
 /*
 
-router.post('/api/v1/business/:id/reviews', (req, res, next) => {
-  let id = req.params.id;
-  let body = _.pick(req.body, ['review']);
-});
-
 router.get('/api/v1/businesses/:id/reviews', (req, res, next) => {
   let id = req.params.id;
 
