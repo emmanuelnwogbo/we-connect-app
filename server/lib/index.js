@@ -19,9 +19,6 @@ app.use(cors());
   });
 });*/
 
-app.get('/api/v1/businesses/:id', (req, res, next) => {
-  console.log('hello there');
-});
 
 app.use('/documentation', index);
 app.use('/api/v1/businesses', business);

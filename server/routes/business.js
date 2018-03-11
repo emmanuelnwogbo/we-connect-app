@@ -92,6 +92,22 @@ router.delete('/:id', (req, res, next) => {
   });
 });
 
+router.get('/:id', (req, res, next) => {
+  let id = req.params.id;
+  let result = false;
+
+  _.forEach(businesses, business => {
+    let bus = false;
+    if (business.id === id) {
+      //res.status(200).json(business);
+      bus = business;
+      return res.status(200).json(bus);
+    }
+  });
+
+  //return res.status(404).json({message: 'this business does not exist'})
+});
+
 /*router.get('/:id', (req, res, next) => {
   let id = req.params.id;
   console.log(id);
