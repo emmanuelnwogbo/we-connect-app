@@ -26,7 +26,7 @@ router.post('/signup', (req, res, next) => {
     }
   });
 
-  body.id = 1;
+  body.id = '1';
 
   let newUser = JSON.stringify(body, null, 2);
   fs.writeFile('db/newUser.json', newUser, err => {

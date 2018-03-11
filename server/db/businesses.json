@@ -7,49 +7,49 @@
   },
   "business2": {
     "id": "2",
-    "name": "business 1",
+    "name": "business 2",
     "address": "temale",
     "category": "technology"
   },
   "business3": {
     "id": "3",
-    "name": "business 1",
+    "name": "business 3",
     "address": "portharcourt",
     "category": "technology"
   },
   "business4": {
     "id": "4",
-    "name": "business 1",
+    "name": "business 4",
     "address": "accra",
     "category": "toys"
   },
   "business5": {
     "id": "5",
-    "name": "business 1",
+    "name": "business 5",
     "address": "lekki",
     "category": "art"
   },
   "business6": {
     "id": "6",
-    "name": "business 1",
+    "name": "business 6",
     "address": "accra mall",
     "category": "cooking"
   },
   "business7": {
     "id": "7",
-    "name": "business 1",
+    "name": "business 7",
     "address": "ikeja mall",
     "category": "fashion"
   },
   "business8": {
     "id": "8",
-    "name": "business 1",
+    "name": "business 8",
     "address": "north accra",
     "category": "sports"
   },
   "business9": {
     "id": "9",
-    "name": "business 1",
+    "name": "business 9",
     "address": "ikeja",
     "category": "repairs"
   }
