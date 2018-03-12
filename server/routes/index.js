@@ -2,8 +2,8 @@ import express from 'express';
 import fs from 'fs';
 import _ from 'lodash';
 
-let test = fs.readFileSync('db/test.json');
-let data = JSON.parse(test);
+//let test = fs.readFileSync('db/test.json');
+//let data = JSON.parse(test);
 
 const router = express.Router();
 
@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
   });
 });
 
-router.post('/', (req, res, next) => {
+/*router.post('/', (req, res, next) => {
   let newUser = {
     firstname: 'ope',
     lastname: 'odedeyi',
@@ -28,6 +28,6 @@ router.post('/', (req, res, next) => {
   fs.writeFile('db/test2.json', newData, err => {
     console.log('done');
   });
-});
+});*/
 
 export default router;

@@ -25,8 +25,14 @@ app.use('/api/v1/businesses', business);
 app.use('/api/v1/auth/', user);
 app.use('/api/v1/review', review);
 
-const port = 3030;
+const port = 3000;
 
-app.listen(port, () => console.log(`server started on port ${port}`));
+app.listen(port, function(error) {
+  if (error) {
+    console.log('error');
+  } else {
+    console.log(`server listening on port ${port}`);
+  }
+});
 
 export default app;

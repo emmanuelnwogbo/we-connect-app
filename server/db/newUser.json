@@ -1,8 +1,8 @@
 {
-  "firstname": "paul",
-  "lastname": "doguns",
-  "email": "dogun@gmail.com",
-  "password": "eemmaa",
-  "confirmpassword": "eemmaa",
+  "firstname": "jack",
+  "lastname": "dorsey",
+  "email": "jack@gmail.com",
+  "password": "testword",
+  "confirmpassword": "testword",
   "id": "1"
 }
