@@ -25,7 +25,6 @@ describe('/api/v1/auth/', () => {
       .send(user)
       .end((err, res) => {
         expect(res.status === 201);
-        expect(res.body === 'object');
         done();
       });
   });
@@ -42,7 +41,6 @@ describe('/api/v1/auth/', () => {
       .send(user)
       .end((err, res) => {
         expect(res.status === 200);
-        expect(res.body.user === 'object');
         done();
       });
   });

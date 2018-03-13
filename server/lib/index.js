@@ -21,7 +21,7 @@ app.use(cors());
 });*/
 
 app.use('/documentation', index);
-app.use('/api/v1/businesses', business);
+app.use('/api/v1/businesses/', business);
 app.use('/api/v1/auth/', user);
 app.use('/api/v1/review', review);
 
