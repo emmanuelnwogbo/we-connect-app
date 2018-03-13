@@ -27,8 +27,9 @@
     "start": "nodemon lib/index.js --exec babel-node --presets es2015,stage-2",
     "build": "babel lib -d dist --presets es2015,stage-2",
     "serve": "node dist/index.js",
-    "test": "mocha --compilers js:babel-core/register ./tests ./",
-    "test:watch": "mocha --compilers js:babel-core/register --watch ./tests ./"
+    "test": "mocha --compilers js:babel-core/register ./tests --exit",
+    "test:watch":
+      "mocha --compilers js:babel-core/register --watch ./tests --exit"
   },
   "author": "Emmanuel <emmanwogbo20@yahoo.com>",
   "license": "ISC"
