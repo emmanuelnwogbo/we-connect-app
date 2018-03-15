@@ -13,12 +13,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(cors());
 
-
 app.use('/api/v1/businesses/', business);
 app.use('/', index);
 app.use('/api/v1/auth/', user);
 
-const port = 3000;
+const port = 3030;
 
 app.listen(port, function(error) {
   if (error) {
