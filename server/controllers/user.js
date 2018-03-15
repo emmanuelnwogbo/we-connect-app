@@ -1,10 +1,10 @@
 import _ from 'lodash';
 import dummyData from '../dummydb/dummydata';
 
-import UserMiddlewares from './middleware/UserMiddlewares';
+import UserMiddlewares from '../middleware/UserMiddlewares';
 const { passwordCheck, userFinder } = UserMiddlewares;
 
-import UtilityMiddlewares from './middleware/UtilityMiddlewares';
+import UtilityMiddlewares from '../middleware/UtilityMiddlewares';
 
 const { isEmail, isEmpty } = UtilityMiddlewares;
 

@@ -1,4 +1,4 @@
-import dummydata from '../../dummydb/dummydata';
+import dummydata from '../dummydb/dummydata';
 
 export default class UserMiddlewares {
   static userFinder(body, req, res, next) {
