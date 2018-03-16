@@ -17,7 +17,7 @@ app.use('/api/v1/businesses/', business);
 app.use('/', index);
 app.use('/api/v1/auth/', user);
 
-const port = 3030;
+const port = 8080;
 
 app.listen(port, function(error) {
   if (error) {
