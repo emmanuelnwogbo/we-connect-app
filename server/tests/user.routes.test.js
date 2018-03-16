@@ -8,7 +8,7 @@ let chaiShould = should();
 
 chai.use(chaiHttp);
 
-import testdata from './test.data';
+import testdata from './user.test.data';
 const {
   signupDetails,
   signupDetailsTwo,
@@ -16,7 +16,7 @@ const {
   signupDetailsFour,
   signinDetails,
   signinDetailsTwo,
-  signinDetailsThree
+  signinDetailsThree,
 } = testdata;
 
 describe('/api/v1/auth/signup', () => {
