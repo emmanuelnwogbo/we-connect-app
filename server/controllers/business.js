@@ -12,8 +12,6 @@ export default class BusinessController {
     let categoryQuery = req.query.category;
     let results = [];
 
-    console.log(locationQuery);
-
     if (locationQuery || categoryQuery) {
       dummyData.map(data => {
         if (
