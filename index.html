@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>weConnect</title>
+</head>
+
+<body id="home" class="scrollspy">
+  <div class="navbar-fixed">
+    <nav class="purple darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">weConnect</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="addbusiness.html">Add Business</a>
+            </li>
+            <li>
+              <a href="signupform.html">Signup</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-nav">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="addbusiness.html">Add Business</a>
+    </li>
+    <li>
+      <a href="signupform.html">Signup</a>
+    </li>
+    <li>
+      <a href="login.html">Login</a>
+    </li>
+  </ul>
+
+  <!-- Section: Search -->
+  <section id="search" class="section section-search purple darken-4 darken-1 white-text center scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Find a Business</h3>
+          <div class="input-field">
+            <input class="white grey-text autocomplete" placeholder="search business" type="text" id="autocomplete-input">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <ul class="collection">
+    <a href="business.html" class="collection-item avatar black-text text-darken-2">
+      <i class="material-icons blue circle">business</i>
+      <span class="title">Ike's Dance Class</span>
+      <p>opposite ikejs mall
+        <br> 30 reviews
+      </p>
+    </a>
+    <a href="business.html" class="collection-item avatar black-text text-darken-2">
+      <i class="material-icons blue circle">business</i>
+      <span class="title">Ike's Dance Class</span>
+      <p>opposite ikejs mall
+        <br> 30 reviews
+      </p>
+    </a>
+    <a href="business.html" class="collection-item avatar black-text text-darken-2">
+      <i class="material-icons blue circle">business</i>
+      <span class="title">Ike's Dance Class</span>
+      <p>opposite ikejs mall
+        <br> 30 reviews
+      </p>
+    </a>
+    <a href="business.html" class="collection-item avatar black-text text-darken-2">
+      <i class="material-icons blue circle">business</i>
+      <span class="title">Ike's Dance Class</span>
+      <p>opposite ikejs mall
+        <br> 30 reviews
+      </p>
+    </a>
+    <a href="business.html" class="collection-item avatar black-text text-darken-2">
+      <i class="material-icons blue circle">business</i>
+      <span class="title">Ike's Dance Class</span>
+      <p>opposite ikejs mall
+        <br> 30 reviews
+      </p>
+    </a>
+    <a href="#" class="collection-item avatar black-text text-darken-2">
+      <i class="material-icons blue circle">business</i>
+      <span class="title">Ike's Dance Class</span>
+      <p>opposite ikejs mall
+        <br> 30 reviews
+      </p>
+    </a>
+  </ul>
+
+  <!--I have to add the jquery first for this to work properly-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      //damn it I think i have to remember this if I'm to include react later
+      //i fucking hate that I have to use jquery
+      //in order to solve the problem in react I'll have to place 
+      //the jquery in the lifecycle method of a parent component,
+      //preferably the App component
+      $('.button-collapse').sideNav();
+
+
+    });
+  </script>
+
+</body>
+
+</html>
