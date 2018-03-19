@@ -21,3 +21,4 @@ the html files include
 *a signup form template,
 *a template for when a user clicks on a business,
 *a template for the front end and for search results, as well as the header and navbar.
+link to template: https://emmanuelnwogbo.github.io/we-connect-app/
