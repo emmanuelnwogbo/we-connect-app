@@ -27,9 +27,9 @@
 
 <h1 id="licence">Licence</h1>
 <p>
-MIT License</>
+MIT License</br>
 
-Copyright (c) 2018 Emmanuel Nwogbo</>
+Copyright (c) 2018 Emmanuel Nwogbo</br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
