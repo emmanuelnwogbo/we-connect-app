@@ -9,6 +9,9 @@
 <p>we connect currently uses Node.js/Express and Postgresql in the back end, with Sequelize being the ORM for interacting with Postgresql.</p>
 
 <h1 id="installationandsetup">Installation and Setup</h1>
+<p>If you'd like to set this project up on your local machine please follow the steps below carefully.</p>
 <ul>
   <li>Install NodeJS: If you don't already have nodejs installed on your computer, pls follow <a href="https://nodejs.org/en/">this link</a> to install</li>
+  <li>Clone this repo: Open your terminal (Mac or Linux) or command prompt(Windows) then enter this command <code>git clone https://github.com/emmanuelnwogbo/we-connect-app.git</code></li>
+  <li>Install project dependencies: In your terminal/command line enter this command <code>npm install</code></li>
 </ul>
