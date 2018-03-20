@@ -12,8 +12,30 @@
 <p>If you'd like to set this project up on your local machine please follow the steps below carefully.</p>
 <ul>
   <li>Install NodeJS: If you don't already have nodejs installed on your computer, pls follow <a href="https://nodejs.org/en/">this link</a> to install</li>
-  <li>Clone this repo: Open your terminal (Mac or Linux) or command prompt (Windows), then enter this command <code>git clone https://github.com/emmanuelnwogbo/we-connect-app.git</code></li>
+  <li>Clone this repo: Open your terminal (Mac or Linux) or command prompt (Windows), then enter this command </br><code>git clone https://github.com/emmanuelnwogbo/we-connect-app.git</code></li>
   <li>Installing project dependencies: In your terminal/command line enter the command and let it install the dependencies needed for the app to function</br><code>npm install</code></li>
   <li>Running the App: in the root directory of the app folder, enter the following command in your terminal or command prompt</br><code>npm run start</code></li>
 </ul>
 <h1 id="licence">Licence</h1>
+<p>
+MIT License</b>
+
+Copyright (c) 2018 Emmanuel Nwogbo</b>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
