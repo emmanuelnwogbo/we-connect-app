@@ -3,7 +3,7 @@
 <h1>Table of Contents</h1>
 <p>1.<a href="#techstack">Tech Stack</a></p>
 <p>2.<a href="#installationandsetup">General Installation and Setup</a></p>
-<p>3.<a href="#runningthetests">Running The Tests</a></p>
+<p>3.<a href="#runningthetests">Tests</a></p>
 <p>4.<a href="#licence">License</a></p>
 
 <h1 id="techstack">Tech Stack</h1>
@@ -18,7 +18,7 @@
   <li>Running the App: in the root directory of the app folder, enter the following command in your terminal or command prompt</br><code>npm run start</code></li>
 </ul>
 
-<h1 id="runningthetests">Running The Tests</h1>
+<h1 id="runningthetests">Tests</h1>
 <p>I've written a couple of tests for this projects code, pls look into the server/tests directory to find them. The test suite is set up useing mocha and chai (check the projects package.json file)</p></br>
 
 <h2>Running the tests</h2>
