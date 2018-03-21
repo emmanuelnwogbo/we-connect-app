@@ -5,8 +5,8 @@ import UserController from '../controllers/user.controller';
 
 const {postUser, loginUser} = UserController;
 
-router.post('/signup', );
+router.post('/signup', postUser);
 
-router.post('/login', );
+router.post('/login', loginUser);
 
 export default router;

@@ -1,11 +1,14 @@
 import _ from 'lodash';
+import jwt from 'jsonwebtoken';
 
-const postUser = (req, res) => {};
+class UserController {
+  static postUser(req, res) {
+    res.send('hello there');
+  }
 
-const loginUser = (req, res) => {};
+  static loginUser(req, res) {
+    res.send('hello there user');
+  }
+}
 
-const UserController = {
-  postUser,
-  loginUser,
-};
 export default UserController;
